@@ -31,18 +31,20 @@ import javax.mail.internet.MimeMultipart;
  */
 public class Email {
 
+	//Insira neste arquivo as informações do email fictício que você criou	
+	
     // SMTP info
     private String host = "smtp.gmail.com";
     private String port = "587";
-    private String mailFrom = "secretaria.ufc.russas@gmail.com";
-    private String password = "ufc123456";
+    private String mailFrom = "SEUEMAIL@gmail.com";
+    private String password = "SUASENHA";
 
     // message info
-    private String mailTo = "secretaria.ufc.russas@gmail.com";
+    private String mailTo = "SEUDESTINATARIO@gmail.com";
     private String subject = "Relatório de Atividades Complementares";
     private String message = "Segue em anexo, relatório de atividades complementares solicitado. \nAtenciosamente, Secretaria de Cursos UFC - Campus Russas.";
 
-    
+    //MODIFIQUE PARA O SEU CAMINHO
     private String salvarDirect = "C:\\Users\\willi\\OneDrive\\Documentos\\NetBeansProjects\\GerenciarAtividadeComplementar-master\\src\\RelatoriosRecebidos"; // directory to save the downloaded documents
     
     public void setDestinatario(String dest){
@@ -62,7 +64,7 @@ public class Email {
         setDestinatario(emailPara);
         
         String[] attachFiles = new String[1];
-        
+        //MODIFIQUE PARA O SEU CAMINHO
         attachFiles[0] = "C:\\Users\\willi\\OneDrive\\Documentos\\NetBeansProjects\\GerenciarAtividadeComplementar-master\\src\\Relatorios\\relatorio.pdf";
         
         try {
@@ -78,7 +80,7 @@ public class Email {
     
     public void receberEmails(){
     
-        this.downloadEmailAttachments("pop.gmail.com","995", "secretaria.ufc.russas@gmail.com", "ufc123456");
+        this.downloadEmailAttachments("pop.gmail.com","995", "SEUEMAIL@gmail.com", "SUASENHA");
     
     }
     
