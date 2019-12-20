@@ -22,7 +22,7 @@ Este projeto foi desenvolvido na linguagem de programação Java, onde possui o 
 #### - Observer
 
 
-## A seguir uma representação da Tela Principal do sistema
+## Representação da Tela Principal do sistema
 
 ![alt text](https://github.com/WillianaLeite/gerenciarAtividadesComplementares/blob/master/Image_TelaInicial.PNG)
 
