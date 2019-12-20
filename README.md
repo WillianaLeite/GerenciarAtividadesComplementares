@@ -7,13 +7,13 @@ Este projeto foi desenvolvido na linguagem de programação Java, onde possui o 
 #### - Enviar relatórios sobre as atividades Extra Curriculares dos Alunos via email;
 #### - Gerar Relatórios Gerais sobre as atividades do aluno ou sobre determinadas Categorias;
 
-## - Pré Requisitos
+## Pré Requisitos
 
 #### - Instale o XAMPP que é um pacote com os principais servidores de código aberto, utilizaremos o serviço de banco de dados MySQL;
 #### - Crie um email fictício e altere as permições necessárias para que o sistema consiga receber e enviar emails através dele;
 
 
-## - Padrões de projeto utilizados
+## Padrões de projeto utilizados
 
 #### - MVC
 #### - DAO
@@ -22,7 +22,14 @@ Este projeto foi desenvolvido na linguagem de programação Java, onde possui o 
 #### - Observer
 
 
-## - A seguir uma representação da Tela Principal do sistema
+## A seguir uma representação da Tela Principal do sistema
+
+![alt text](https://github.com/WillianaLeite/gerenciarAtividadesComplementares/blob/master/Image_TelaInicial.PNG)
+
+
+
+
+Link para Tutorial no youtube: - https://youtu.be/eaQqGqoPWO0
 
 
 
