@@ -35,5 +35,5 @@ Link para Tutorial no youtube: - https://youtu.be/eaQqGqoPWO0
 
 
 
-###### Observações
+## Observações
 Para a utilização deste código você deve alterar os caminhos de cada imagem pois algumas estão com caminhos absolutos, apesar de ser uma prática ruim, por algum motivo a IDE que utilizei o Netebeans não reconhece caminhos relativos. A maior parte das imagens estão localizadas na Tela Principal, e na geração de relatórios onde insiro a logo da Universidade. A modificação dos caminhos da Tela Principal deve ser feita nas telas de configuração do swing, ao clicar com botão direito em cima do componente e selicionar a opção configuração, em seguida selecione a opção ícone e altere para o seu caminho. A alteração do caminho da imagem dos relatórios deve ser feita via código, nas funções gerar Relatório. Feito isso, o sistema deve funcionar normalmente!  
