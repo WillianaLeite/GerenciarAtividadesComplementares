@@ -1,4 +1,4 @@
-# Sistema Gerenciador de Atividades Complementares
+# Sistema Gerenciador de Atividades Extra Curriculares
 
 Este projeto foi desenvolvido na linguagem de programação Java, onde possui o objetivo de auxiliar Secretários Acadêmicos de Universidades que desempenham a função de analisar, armazenar e fornecer feedback sobre atividades Extra Curriculares dos alunos. As principais funcionalidades desse sistema são:
  
